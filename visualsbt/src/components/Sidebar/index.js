@@ -1,3 +1,5 @@
+// Creating a navbar for when app is in a mobile state.
+
 import React from 'react';
 import { SidebarContainer,
 Icon,
@@ -8,11 +10,12 @@ SidebarLink,
 SideBtnWrap,
 SidebarRoute
 } from './SidebarElements';
-
-const Sidebar = () => {
+// Passing in isOpen and toggle.
+const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer>
-        <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toggle} >
+        {/* When you click the Icon it will toggle the navbar */}
+        <Icon onClick={toggle}>
             <CloseIcon />
         </Icon>
         <SidebarWrapper>

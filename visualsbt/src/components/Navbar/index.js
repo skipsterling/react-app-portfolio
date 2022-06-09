@@ -14,16 +14,15 @@ import {
 
 // Importing our FaBars
 import { FaBars } from 'react-icons/fa'
-
-const Navbar = () => {
+// ({ toggle }) this passes in toggle so we can use it.
+const Navbar = ({ toggle }) => {
     return (
         <>
             <Nav>
                 <NavbarContainer>
                     <NavLogo to="/">
-                        Visuals By Thomas
-                    </NavLogo>
-                    <MobileIcon>
+                        Visuals By Thomas</NavLogo>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>

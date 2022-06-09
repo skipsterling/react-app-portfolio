@@ -1,3 +1,4 @@
+// Styling navbar for when the site is in mobile state. 
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
@@ -10,15 +11,14 @@ position: fixed;
 z-index: 999;
 width: 100%;
 height: 100%;
-background: black;
+background: #304D63;
 display: grid;
 align-items: center;
 top: 0;
 left: 0;
 transition: all 0.3s ease-in-out;
-// opacity: ${({ isOpen }) => ( isOpen ? '100%' : '0')};
-// top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
-top: 0;
+opacity: ${({ isOpen }) => ( isOpen ? '100%' : '0')};
+top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -64,7 +64,7 @@ cursor: pointer;
 font-family: 'Space Grotesk', sans-serif;
 
 &:hover {
-    color: black;
+    color: #ED8975;
     transition: all 0.2s ease-in-out;
 }
 `;
@@ -75,7 +75,7 @@ justify-content: center;
 `;
 
 export const SidebarRoute = styled(LinkR)`
-boreder-radius: 50px;
+border-radius: 50px;
 background: #ED8975;
 color: #F2D096;
 white-space: nowrap;
