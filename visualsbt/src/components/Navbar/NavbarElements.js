@@ -6,7 +6,7 @@ import { Link as LinkS } from 'react-scroll'
 // Components we added in our navbar index.js 
 
 export const Nav = styled.nav`
-background: black;
+background: #304D63;
 height: 80px;
 // margin-top: -80px;
 display: flex;
@@ -33,14 +33,14 @@ max-width: 1100px;
 `;
 // LinkR = link router
 export const NavLogo = styled(LinkR)`
-color: red;
+color: #B2E7E8;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
-font-weight: bold;
+font-family: 'Abril Fatface', cursive;
 text-decoration: none;
 `;
 
@@ -55,6 +55,7 @@ display: none;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;  
+    color: #fff;
 }
 `;
 
@@ -81,8 +82,39 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
+font-family: 'Belleza', sans-serif;
 
 &.active {
     border-bottom: 3px solid #ED9875;
+}
+`;
+
+export const NavBtn = styled.nav`
+display: flex;
+align-items: center;
+
+@media screen and (max-width: 768px) {
+    display: none;
+}
+`;
+
+export const NavBtnLink = styled(LinkR)`
+border-radius: 50px;
+background: #ED8975;
+white-space: nowrap;
+padding: 10px 22px;
+color: #F2D096;
+font-size: 16px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+font-family: 'Space Grotesk', sans-serif;
+
+&.hover {
+    transition: all 0.2 ease-in-out;
+    background: #F2D096;
+    color: #ED8975;
 }
 `;
