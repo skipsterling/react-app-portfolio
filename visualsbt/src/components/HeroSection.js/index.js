@@ -30,7 +30,9 @@ const onHover = () => {
         <HeroH1>Content Creation</HeroH1>
         <HeroP>Click to see more content</HeroP>
         <HeroBtnWrapper>
-          <Button to='content' onMouseHover={onHover} onMouseLeave={onHover}>Content Creation {hover ? <ArrowForward /> : <ArrowRight />}
+          <Button to='content' onMouseHover={onHover} onMouseLeave={onHover} 
+         // This is where you add your primary and dark functions if you want to test in live time.
+          >Content Creation {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
