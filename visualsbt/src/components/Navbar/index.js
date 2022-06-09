@@ -1,6 +1,8 @@
 import React from 'react';
 //Importing our styled components into this file so they can be used.
-import { Nav, NavbarContainer, NavLogo } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
+// Importing our FaBars
+import {FaBars} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
