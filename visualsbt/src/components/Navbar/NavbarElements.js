@@ -55,7 +55,7 @@ display: none;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;  
-    color: #fff;
+    color: #ED8975;
 }
 `;
 
@@ -112,7 +112,7 @@ transition: all 0.2s ease-in-out;
 text-decoration: none;
 font-family: 'Space Grotesk', sans-serif;
 
-&.hover {
+&:hover{
     transition: all 0.2 ease-in-out;
     background: #F2D096;
     color: #ED8975;
