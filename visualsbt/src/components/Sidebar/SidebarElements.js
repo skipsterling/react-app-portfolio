@@ -61,6 +61,7 @@ transition: all 0.2s ease-in-out;
 text-decoration: none;
 color: #fff;
 cursor: pointer;
+font-family: 'Space Grotesk', sans-serif;
 
 &:hover {
     color: black;
@@ -75,8 +76,8 @@ justify-content: center;
 
 export const SidebarRoute = styled(LinkR)`
 boreder-radius: 50px;
-background: blue;
-color: red;
+background: #ED8975;
+color: #F2D096;
 white-space: nowrap;
 padding: 16px 64px;
 font-size: 16px;
@@ -85,10 +86,11 @@ border: 0;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
+font-family: 'Space Grotesk', sans-serif;
 
 &:hover {
     transition: all 0.2s ease-in-out;
-    color: black;
-    background: white;
+    color: #ED8975;
+    background: #F2D096;
 }
 `;
