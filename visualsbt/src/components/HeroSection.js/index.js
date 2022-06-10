@@ -1,7 +1,7 @@
 // This will create out home route with a video as the background.
 import React, { useState }from 'react';
 import Video from '../../videos/video.mov';
-import { Button } from '../ButtonElement';
+import { Button } from '../ButtonElements';
 import {
   HeroContainer,
   HeroBg,
@@ -27,8 +27,8 @@ const onHover = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mov' />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Content Creation</HeroH1>
-        <HeroP>Click to see more content</HeroP>
+        <HeroH1>Visuals By Thomas</HeroH1>
+        <HeroP></HeroP>
         <HeroBtnWrapper>
           <Button to='content' onMouseHover={onHover} onMouseLeave={onHover} 
          // This is where you add your primary and dark functions if you want to test in live time.
