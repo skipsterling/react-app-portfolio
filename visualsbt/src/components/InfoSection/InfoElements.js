@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
 color: #fff;
-background: ${({ lightBg }) => (lightBg ? '#ED8975' : '#F2D096')};
+background: ${({ lightBg }) => (lightBg ? '#F2D096' : '#ED8975')};
 
 @media screen and (max-width: 768px) {
     padding: 100px 0 0;
@@ -25,6 +25,7 @@ export const InfoRow = styled.div`
 display: grid;
 grid-auto-columns: minmax(auto, 1fr);
 align-items: center;
+// below adds our two columns to divide our page.
 grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
 @media screen and (max-width: 768px) {
@@ -51,13 +52,14 @@ padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
-color: #ED8975;
+color:  ${({ lightText }) => (lightText ? '#8FB9AA' : '#F2D096')};
 font-size: 16px;
 line-height: 16px;
 font-weight: 700;
 letter-spacing: 1.4px;
 text-transform: uppercase;
 margin-bottom: 16px;
+font-family: ${({ thinText }) => (thinText ? 'Space Grotesk, sans-serif' : 'font-family: Abril Fatface, cursive;')};
 `;
 
 export const Heading = styled.h1`
@@ -65,7 +67,7 @@ margin-bottom: 24px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
-color:  ${({ lightText }) => (lightText ? '#8FB9AA' : '#ED8975')};
+color:  ${({ lightText }) => (lightText ? '#8FB9AA' : '#F2D096')};
 
 @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -77,7 +79,7 @@ max-width: 440px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
-color: ${({darkText}) => (darkText ? '#8FB9AA' : '#ED8975')};
+color: ${({darkText}) => (darkText ? '#304D63' : '#8FB9AA')};
 `;
 
 export const BtnWrap = styled.div`

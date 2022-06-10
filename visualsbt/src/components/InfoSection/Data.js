@@ -4,16 +4,53 @@
 export const homeObjOne = {
     id: 'content',
     lightBg: false, 
-    lightText: true, 
+    lightText: false, 
     lightTextDesc: true,
     topline: 'To See More',
     headline: 'Images and Videos',
     description: 'Please click the button below.',
     buttonLable: 'Click Here',
     imgStart: false, 
-    img: require('../../images/jax.jpg'),
+    img: require('../../images/1.jpg'),
     alt: 'jax',
     dark: true,
     primary: true,
     darkText: false,
+    thinText: 'true'
+};
+
+export const homeObjTwo = {
+    id: 'weddings',
+    lightBg: true, 
+    lightText: true, 
+    lightTextDesc: false,
+    topline: 'To See More',
+    headline: 'Conent Creation',
+    description: 'Please click the button below.',
+    buttonLable: 'Click Here',
+    imgStart: false, 
+    img: require('../../images/2.jpg'),
+    alt: 'jax',
+    dark: false,
+    primary: false,
+    darkText: false,
+    thinText: 'true'
+};
+
+export const homeObjThree = {
+    id: 'about',
+    lightBg: false, 
+    lightText: false, 
+    lightTextDesc: true,
+    topline: 'Hi There,',
+    headline: 'My name is Thomas',
+    description: 'To find out more about me, please click the button below',
+    buttonLable: 'Click Here',
+    imgStart: false, 
+    img: require('../../images/3.jpg'),
+    alt: 'me',
+    dark: true,
+    primary: true,
+    darkText: false,
+    thinText: 'true'
 };
