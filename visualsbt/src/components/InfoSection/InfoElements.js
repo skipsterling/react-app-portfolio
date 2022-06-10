@@ -59,7 +59,7 @@ font-weight: 700;
 letter-spacing: 1.4px;
 text-transform: uppercase;
 margin-bottom: 16px;
-font-family: ${({ thinText }) => (thinText ? 'Space Grotesk, sans-serif' : 'font-family: Abril Fatface, cursive;')};
+font-family: ${({ thinTextOps }) => (thinTextOps ? 'Space Grotesk, sans-serif' : 'Cinzel Decorative, cursive')};
 `;
 
 export const Heading = styled.h1`
@@ -68,6 +68,8 @@ font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
 color:  ${({ lightText }) => (lightText ? '#8FB9AA' : '#F2D096')};
+font-family: ${({ boldTextOps }) => (boldTextOps ? 'Abril Fatface, cursive' : 'Ultra, serif' )};
+
 
 @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -79,7 +81,8 @@ max-width: 440px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
-color: ${({darkText}) => (darkText ? '#304D63' : '#8FB9AA')};
+color: #304D63;
+font-family: ${({ boldTextOps }) => (boldTextOps ? 'Abril Fatface, cursive' : 'Ultra, serif' )};
 `;
 
 export const BtnWrap = styled.div`

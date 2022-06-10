@@ -16,7 +16,8 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
-    thinText: 'true'
+    thinTextOps: 'true',
+    boldTextOps: 'true'
 };
 
 export const homeObjTwo = {
@@ -34,7 +35,8 @@ export const homeObjTwo = {
     dark: false,
     primary: false,
     darkText: false,
-    thinText: 'true'
+    thinTextOps: 'true',
+    boldTextOps: 'true'
 };
 
 export const homeObjThree = {
@@ -52,5 +54,6 @@ export const homeObjThree = {
     dark: true,
     primary: true,
     darkText: false,
-    thinText: 'true'
+    thinTextOps: 'true',
+    boldTextOps: 'true'
 };
