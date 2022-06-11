@@ -6,9 +6,9 @@ import { Link as LinkS } from 'react-scroll'
 // Components we added in our navbar index.js 
 
 export const Nav = styled.nav`
-background: #304D63;
+background: ${({ scrollNav }) => (scrollNav ? '#304D63' : 'transparent')};
 height: 80px;
-// margin-top: -80px;
+margin-top: -80px;
 display: flex;
 justify-content: center;
 align-items: center;

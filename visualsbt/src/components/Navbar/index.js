@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 //Importing our styled components into this file so they can be used.
 import {
     Nav,
@@ -16,9 +16,23 @@ import {
 import { FaBars } from 'react-icons/fa'
 // ({ toggle }) this passes in toggle so we can use it.
 const Navbar = ({ toggle }) => {
+    // Adding code to make nave bar see through until scrolling starts.
+    const [scrollNav, setScrollNav] = useState(false)
+
+// creating a function so that the navbar is triggered once we scroll to a certain point.
+const changeNav = () => {
+    if (window.scrollY >= 80) {
+        setScrollNav(true); 
+    } else {
+        setScrollNav(false);
+    };
+}
+useEffect(() => {
+    window.addEventListener('scroll', changeNav)
+}, [])
     return (
         <>
-            <Nav>
+            <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to="/">
                         Visuals By Thomas</NavLogo>
