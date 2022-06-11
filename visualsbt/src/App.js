@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 import Home from './pages';
 import ContactPage from './pages/contact';
@@ -9,11 +9,10 @@ import ContactPage from './pages/contact';
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path='/' component={Home} exact />
-        <Route path='/contact' component={ContactPage} exact />
-      </Switch>
-     
+     <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/contact' element={<ContactPage />} />
+        </Routes>
     </Router>
   );
 }
