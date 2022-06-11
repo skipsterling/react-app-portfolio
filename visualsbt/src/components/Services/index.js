@@ -1,3 +1,4 @@
+//Creating and importing cards into the services section
 import React from 'react';
 import Icon1 from '../../images/1.jpg';
 import Icon2 from '../../images/2.jpg';
