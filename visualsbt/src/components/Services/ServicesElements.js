@@ -10,11 +10,11 @@ justify-content: center;
 align-items: center;
 background: #B2E7E8;
 
-@media screen and (min-width: 768px) {
-    height: 100px;
+@media screen and (max-width: 768px) {
+    height: 1100px;
 
-    @media screen and (min-width: 480px) {
-        height: 1300px;
+    @media screen and (max-width: 480px) {
+        height: 1100px;
     }
 }
 `;
@@ -78,9 +78,11 @@ font-strength: bold;
 export const ServicesH2 = styled.h2`
 font-size: 1rem;
 text-align: center;
+font-family: 'Abril Fatface', cursive;
 `;
 
 export const ServicesP = styled.p`
 font-size: 1rem;
 text-align: center;
+font-family: 'Space Grotesk', sans-serif;
 `

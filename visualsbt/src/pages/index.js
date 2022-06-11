@@ -1,3 +1,4 @@
+// Importing everything from our pages and components that is neccessary to make the page work.
 import React, { useState } from 'react';
 import HeroSection from '../components/HeroSection.js';
 import InfoSection from '../components/InfoSection/index.js';
