@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import {animateScroll as scroll } from 'react-scroll';
 //Importing our styled components into this file so they can be used.
 import {
     Nav,
@@ -30,11 +31,15 @@ const changeNav = () => {
 useEffect(() => {
     window.addEventListener('scroll', changeNav)
 }, [])
+
+const toggleHome = () => {
+    scroll.scrollToTop()
+}
     return (
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to="/">
+                    <NavLogo to="/" onClick={toggleHome}>
                         Visuals By Thomas</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
