@@ -28,10 +28,16 @@ justify-content: center;
 export const Icon = styled(Link)`
 margin-left: 32px;
 margin-top: 32px;
-text-direction: none;
-color: #fff;
-font-weight: 700;
-font-size: 32px;
+text-decoration: none;
+color: #B2E7E8;
+font-weight: 400;
+font-size: 20px;
+font-family: 'Belleza', sans-serif;
+transition: all 0.3s ease-in-out;
+
+&:hover {
+    color: #ED8975;
+}
 
 @media screen and (max-width: 480px) {
     margin-left: 16px;

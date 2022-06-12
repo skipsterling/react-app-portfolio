@@ -76,9 +76,9 @@ font-strength: bold;
 `;
 
 export const ServicesH2 = styled.h2`
-font-size: 1rem;
+font-size: 1.5rem;
 text-align: center;
-font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
 `;
 
 export const ServicesP = styled.p`

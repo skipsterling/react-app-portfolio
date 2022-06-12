@@ -33,12 +33,7 @@ const Footer = () => {
     <FooterWrap>
         <FooterLinksContainer>
             <FooterLinksWrapper>
-                <FooterLinkItems>
-                    <FooterLinkTitle>Socials</FooterLinkTitle>
-                        <FooterLink to='contact'>Instagram</FooterLink>
-                        <FooterLink to='contact'>Facebook</FooterLink>
-                        <FooterLink to='contact'>Email</FooterLink>
-                </FooterLinkItems>
+               
                 <FooterLinkItems>
                     <FooterLinkTitle>About Us</FooterLinkTitle>
                         <FooterLink to='contact'>How It Works</FooterLink>
@@ -48,9 +43,9 @@ const Footer = () => {
             </FooterLinksWrapper>
             <FooterLinksWrapper>
                 <FooterLinkItems>
-                    <FooterLinkTitle>Socials</FooterLinkTitle>
-                        <FooterLink to='contact'>Instagram</FooterLink>
-                        <FooterLink to='contact'>Facebook</FooterLink>
+                    <FooterLinkTitle>Info</FooterLinkTitle>
+                        <FooterLink to='contact'>Open Hours</FooterLink>
+                        <FooterLink to='contact'>Phone</FooterLink>
                         <FooterLink to='contact'>Email</FooterLink>
                 </FooterLinkItems>
                 

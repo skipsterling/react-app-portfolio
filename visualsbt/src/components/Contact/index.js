@@ -16,7 +16,7 @@ const ContactMe = () => {
       <>
   <Container>
       <FormWrap>
-       <Icon to='/' >Visuals By Thomas</Icon>
+       <Icon to='/' >Back to Home</Icon>
        <FormContent>
            <Form action='#'>
                <FormH1>Contact Me</FormH1>

@@ -53,7 +53,7 @@ color: #fff;
 export const FooterLinkTitle = styled.h1`
 font-size: 14px;
 margin-bottom: 16px;
-font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
 `;
 
 export const FooterLink = styled(Link)`
