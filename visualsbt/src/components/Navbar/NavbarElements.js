@@ -85,7 +85,7 @@ cursor: pointer;
 font-family: 'Belleza', sans-serif;
 
 &.active {
-    border-bottom: 3px solid #ED9875;
+    border-bottom: 3px solid #B2E7E8;
 }
 `;
 

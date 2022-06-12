@@ -1,5 +1,8 @@
 // Footer layout.
 import React from 'react';
+// Importing smooth scroll
+import { animateScroll as scroll } from 'react-scroll';
+
 // Importing our footer style elements into layout.
 import { FooterContainer,
 FooterWrap,
@@ -18,7 +21,13 @@ SocialIconLink
 
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedinIn} from 'react-icons/fa';
 
+
+
 const Footer = () => {
+
+    const toggleHome = () => {
+        scroll.scrollToTop()
+    };
   return (
 <FooterContainer>
     <FooterWrap>
@@ -49,7 +58,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
             <SocialMediaWrap>
-                <SocialLogo to='/'>Socials</SocialLogo>
+                <SocialLogo to='/' onClick={toggleHome}>Visuals By Thomas</SocialLogo>
                 <WebsiteRights>Visuals By Thomas © {new Date().getFullYear()} All Rights Reserved</WebsiteRights>
                 <SocialIcons>
                     <SocialIconLink href='//www.facebook.com/weddingvisualsbythomas/?ref=pages_you_manage' target='_blank' aria-label='Facebook'>
