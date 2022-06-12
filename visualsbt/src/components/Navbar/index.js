@@ -46,17 +46,41 @@ const toggleHome = () => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='content'>Content Creation</NavLinks>
+                            <NavLinks to='content' 
+                            smooth={true}
+                            duration={500}
+                            spy={true}
+                            exact='true'
+                            offset={-80}   
+                         >Content Creation</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='weddings'>Weddings</NavLinks>
+                            <NavLinks to='weddings'
+                             smooth={true}
+                             duration={500}
+                             spy={true}
+                             exact='true'
+                             offset={-80}   
+                            >Weddings</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='about'>About</NavLinks>
+                            <NavLinks to='about'
+                             smooth={true}
+                             duration={500}
+                             spy={true}
+                             exact='true'
+                             offset={-80}   
+                            >About</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='contact'>Contact</NavBtnLink>
+                        <NavBtnLink to='contact'
+                         smooth={true}
+                         duration={500}
+                         spy={true}
+                         exact='true'
+                         offset={-80}   
+                        >Contact</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
