@@ -58,7 +58,7 @@ transition: all 0.2s ease-in-out;
 `;
 
 export const ServicesIcon = styled.img`
-height: 160px;
+height: 200px;
 width: 160px;
 margin-bottom: 10px;
 `;

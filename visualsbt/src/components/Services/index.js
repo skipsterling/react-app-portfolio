@@ -1,9 +1,13 @@
 //Creating and importing cards into the services section
 import React from 'react';
 // import Icon1 from '../../images/1.jpg';
-import Icon2 from '../../images/2.jpg';
-import Icon3 from '../../images/3.jpg';
+// import Icon2 from '../../images/2.jpg';
+// import Icon3 from '../../images/3.jpg';
 import Icon4 from '../../images/4.jpg';
+import Icon6 from '../../images/6.jpg';
+import Icon8 from '../../images/8.jpg';
+
+
 import { ServicesContainer,
 ServicesH1,
 ServicesWrapper,
@@ -24,12 +28,12 @@ const Services = () => {
                 <ServicesP>No Niches here. just an all round shooter.</ServicesP>
             </ServicesCard>
             <ServicesCard>
-                <ServicesIcon src={Icon2}/>
+                <ServicesIcon src={Icon8}/>
                 <ServicesH2>Videography</ServicesH2>
                 <ServicesP>No Niches here. just an all round shooter.</ServicesP>
             </ServicesCard>
             <ServicesCard>
-                <ServicesIcon src={Icon3}/>
+                <ServicesIcon src={Icon6}/>
                 <ServicesH2>Content Creation</ServicesH2>
                 <ServicesP>No Niches here. just an all round shooter.</ServicesP>
             </ServicesCard>
