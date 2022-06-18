@@ -1,15 +1,13 @@
 // Importing everything from our pages and components that is neccessary to make the page work.
 import React, { useState } from 'react';
 import HeroSection from '../components/HeroSection.js';
-import InfoSection from '../components/InfoSection/index.js';
 import Services from '../components/Services/';
-import 
-{ homeObjThree } from '../components/InfoSection/Data';
 import HomeOne from '../components/HomeOne/index.js';
 import HomeTwo from '../components/HomeTwo/index.js';
+import HomeThree from '../components/HomeThree/index.js';
 import { homeObjectOne } from '../components/HomeOne/Data';
 import { homeObjectTwo } from '../components/HomeTwo/Data';
-
+import { homeObjectThree } from '../components/HomeThree/Data';
 
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
@@ -29,8 +27,7 @@ const toggle = () => {
     <HeroSection />
     <HomeOne {...homeObjectOne} />
     <HomeTwo {...homeObjectTwo} />
-   
-    <InfoSection {...homeObjThree} />
+    <HomeThree {...homeObjectThree} />
     <Services />
     <Footer />
     </>
