@@ -14,9 +14,9 @@ import { InfoContainer,
     ImgWrap,
     Butt,
     Img
- } from './HomeOneElements';
+ } from './HomeTwoElements';
 
-const Homeone = ({lightBg, id, imgStart, topline, lightText, headline, darkText, description, buttonLable, img, alt, primary, dark, dark2, thinTextOps, boldTextOps}) => {
+const InfoSection = ({lightBg, id, imgStart, topline, lightText, headline, darkText, description, buttonLable, img, alt, primary, dark, dark2, thinTextOps, boldTextOps}) => {
   return (
     <>
 <InfoContainer lightBg={lightBg} id={id}>
@@ -29,7 +29,7 @@ const Homeone = ({lightBg, id, imgStart, topline, lightText, headline, darkText,
             <Subtitle lightText={lightText}>{description}</Subtitle>
             <BtnWrap>
              
-                <Butt to='contentpage'
+                <Butt to='weddingspage'
                 smooth={true}
                 duration={500}
                 // adding spy to make sure it knows how to add the active class to it.
@@ -58,4 +58,4 @@ const Homeone = ({lightBg, id, imgStart, topline, lightText, headline, darkText,
   )
 }
 
-export default Homeone
+export default InfoSection

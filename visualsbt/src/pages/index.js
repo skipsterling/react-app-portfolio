@@ -3,9 +3,12 @@ import React, { useState } from 'react';
 import HeroSection from '../components/HeroSection.js';
 import InfoSection from '../components/InfoSection/index.js';
 import Services from '../components/Services/';
-import { homeObjTwo, homeObjThree } from '../components/InfoSection/Data';
+import 
+{ homeObjThree } from '../components/InfoSection/Data';
 import HomeOne from '../components/HomeOne/index.js';
+import HomeTwo from '../components/HomeTwo/index.js';
 import { homeObjectOne } from '../components/HomeOne/Data';
+import { homeObjectTwo } from '../components/HomeTwo/Data';
 
 
 import Navbar from '../components/Navbar';
@@ -25,8 +28,8 @@ const toggle = () => {
     <Navbar toggle={toggle}/>
     <HeroSection />
     <HomeOne {...homeObjectOne} />
+    <HomeTwo {...homeObjectTwo} />
    
-    <InfoSection {...homeObjTwo} />
     <InfoSection {...homeObjThree} />
     <Services />
     <Footer />
