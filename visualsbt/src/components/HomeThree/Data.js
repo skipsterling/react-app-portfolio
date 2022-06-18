@@ -11,7 +11,7 @@ export const homeObjectThree = {
     description: 'To find out more about me, please click the button below',
     buttonLable: 'Click Here',
     imgStart: false, 
-    img: require('../../images/4.jpg'),
+    img: require('../../images/3.jpg'),
     alt: 'me',
     dark: true,
     primary: true,

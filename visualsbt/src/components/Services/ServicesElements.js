@@ -66,7 +66,8 @@ margin-bottom: 10px;
 export const ServicesH1 = styled.h1`
 font-size: 3rem;
 color: #304D63;
-margin-bottom: 64px;
+// margin-bottom: 64px;
+padding: 30px;
 font-family: 'Ultra', serif;
 font-strength: bold;
 
