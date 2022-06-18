@@ -1,6 +1,6 @@
 // This will create out home route with a video as the background.
 import React, { useState }from 'react';
-import Video from '../../videos/video.mov';
+import Video from '../../videos/wt.mp4';
 import { Button } from '../ButtonElements';
 import {
   ContentHeaderContainer,
@@ -24,7 +24,7 @@ const onHover = () => {
   return (
     <ContentHeaderContainer>
       <ContentHeaderBg>
-        <VideoBg autoPlay loop muted src={Video} type='video/mov' />
+        <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </ContentHeaderBg>
       <ContentHeaderContent>
         <ContentHeaderH1>Visuals By Thomas</ContentHeaderH1>
