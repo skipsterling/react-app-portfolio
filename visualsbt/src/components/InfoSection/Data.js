@@ -1,24 +1,7 @@
 // Creating a file where I can pass in all different values, so we can update the design of our website without having to hard code over and over again.
 // In other words, making it reusable.
-
-export const homeObjOne = {
-    id: 'content',
-    lightBg: false, 
-    lightText: false, 
-    lightTextDesc: true,
-    topline: 'To See More',
-    headline: 'Images and Videos',
-    description: 'Please click the button below.',
-    buttonLable: 'Click Here',
-    imgStart: false, 
-    img: require('../../images/1.jpg'),
-    alt: 'jax',
-    dark: true,
-    primary: true,
-    darkText: false,
-    thinTextOps: 'true',
-    boldTextOps: 'true'
-};
+import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 
 export const homeObjTwo = {
     id: 'weddings',
@@ -26,7 +9,7 @@ export const homeObjTwo = {
     lightText: true, 
     lightTextDesc: false,
     topline: 'To See More',
-    headline: 'Conent Creation',
+    headline: 'Wedding Content',
     description: 'Please click the button below.',
     buttonLable: 'Click Here',
     imgStart: false, 
@@ -57,3 +40,6 @@ export const homeObjThree = {
     thinTextOps: 'true',
     boldTextOps: 'true'
 };
+
+export const Button = styled(Link)`
+`
