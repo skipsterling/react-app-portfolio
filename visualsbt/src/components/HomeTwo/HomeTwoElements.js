@@ -122,6 +122,6 @@ text-decoration: none;
 
 &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({primary}) => (primary ? '#F2D096' : '#F2D096')};
+    background: ${({primary}) => (primary ? '#304D63' : '#304D63')};
 }
 `

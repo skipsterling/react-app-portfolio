@@ -25,17 +25,17 @@ const Services = () => {
             <ServicesCard>
                 <ServicesIcon src={Icon4}/>
                 <ServicesH2>Photography</ServicesH2>
-                <ServicesP>No Niches here. just an all round shooter.</ServicesP>
+                <ServicesP></ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon8}/>
                 <ServicesH2>Videography</ServicesH2>
-                <ServicesP>No Niches here. just an all round shooter.</ServicesP>
+                <ServicesP></ServicesP>
             </ServicesCard>
             <ServicesCard>
                 <ServicesIcon src={Icon6}/>
                 <ServicesH2>Content Creation</ServicesH2>
-                <ServicesP>No Niches here. just an all round shooter.</ServicesP>
+                <ServicesP></ServicesP>
             </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>
