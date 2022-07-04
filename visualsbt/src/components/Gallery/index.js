@@ -10,14 +10,15 @@ import {
   Column2,
   Column3,
   Column4,
-  
-  Img
+  Img,
+  Header
   
 } from './GalleryElements';
 
 const PhotoGallery = () => {
   return (
     <div>
+      <Header>IMAGES</Header>
       <Container>
        
         <Column1><Img src={Img1} /></Column1>
@@ -26,7 +27,22 @@ const PhotoGallery = () => {
         <Column4><Img src={Img4} /></Column4>
         
       </Container>
-
+      <Container>
+       
+       <Column1><Img src={Img1} /></Column1>
+       <Column2><Img src={Img2}/></Column2>      
+       <Column3><Img src={Img3}/></Column3>     
+       <Column4><Img src={Img4} /></Column4>
+       
+     </Container>
+     <Container>
+       
+       <Column1><Img src={Img1} /></Column1>
+       <Column2><Img src={Img2}/></Column2>      
+       <Column3><Img src={Img3}/></Column3>     
+       <Column4><Img src={Img4} /></Column4>
+       
+     </Container>
     </div>
   )
 }

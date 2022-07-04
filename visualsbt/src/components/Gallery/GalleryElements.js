@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-margin-left: 5%;
+margin-left: 10%;
 padding: 1rem;
 display: grid;
 grid-template-columns: 21.5% 21.5% 21.5% 21.5%;
@@ -60,4 +60,11 @@ export const Row = styled.div`
 export const Img = styled.img`
 width: 100%;
 height: 100%;
+`
+
+export const Header = styled.h1`
+text-align: center;
+padding: 2rem;
+font-family: 'Bebas Neue', cursive;
+
 `
