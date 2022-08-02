@@ -33,7 +33,7 @@ const PhotoGallery = () => {
        <Column1><Img src='https://drive.google.com/uc?export=view&id=11O8QGecU3pVJrBc7FYMCsQfVbPVDrc5d' /></Column1>
        <Column2><Img src='https://drive.google.com/uc?export=view&id=1hHHAkyIYZ3SWSWfD8rfAT-tiEFihA70h'/></Column2>      
        <Column3><Img src='https://drive.google.com/uc?export=view&id=1YAuWf5fJ886l5kyH5QMu8aOPXppXYTpe'/></Column3>     
-       <Column4><Img src='https://drive.google.com/uc?export=view&id=1y-DTYhrP81Z5k4YGGly1MSRJJPAivaLl' /></Column4>
+       <Column4><Img src='https://drive.google.com/uc?export=view&id=1FjgO_l9idFp0ubMY8_RwPbfTciq7_XGl' /></Column4>
        
      </Container>
      <Container>
