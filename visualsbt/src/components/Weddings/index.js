@@ -1,9 +1,10 @@
 import React from 'react'
+import WeddingGallery from '../WeddingGallery'
 
 const Weddings = () => {
   return (
     <div>
-Weddings Page
+<WeddingGallery />
     </div>
   )
 }

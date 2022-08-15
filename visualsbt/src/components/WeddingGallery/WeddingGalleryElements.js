@@ -65,6 +65,7 @@ height: 100%;
 export const Header = styled.h1`
 text-align: center;
 padding: 2rem;
-font-family: 'Bebas Neue', cursive;
-
+font-family: 'Abril Fatface', cursive;
+font-strength: bold;
+font-size: 5rem;
 `
