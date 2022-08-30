@@ -1,12 +1,13 @@
 import React from 'react';
 import Weddings from '../components/Weddings';
-import VidWedOne from '../components/VidWedOne.js';
-
+import Video from '../components/WedVidOne';
+import WedVidTwo from '../components/WedVidTwo';
 const WeddingsPage = () => {
   return (
     <div>
       <Weddings />
-      <VidWedOne />
+      <Video /> 
+      <WedVidTwo /> 
     </div>
   )
 }
