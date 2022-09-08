@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
+import img from '../../images/2.jpg';
 
 export const Container = styled.div`
-min-height: 692px;
+width: 100%;
+height: 100%;
 position: fixed;
 bottom: 0;
 left: 0;
@@ -10,7 +12,7 @@ right: 0;
 top: 0;
 z-index: 0;
 overflow: hidden;
-background: linear-gradient(90deg, #304D63 0%, #B2E7E8 100%);
+background-image: url(${img});
 `;
 
 export const FormWrap = styled.div`
@@ -109,7 +111,14 @@ cursor: pointer;
 
 export const Text = styled.span`
 text-align: center;
-margin-top: 24px;
+
 color: #fff;
-font-size: 14px;
+font-size: 50px;
 `;
+
+export const MainH1 = styled.div`
+text-align: center;
+margin-top: 100px;
+color: #fff;
+font-size: 50px;
+`
