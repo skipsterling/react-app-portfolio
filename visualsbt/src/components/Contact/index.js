@@ -20,12 +20,13 @@ const ContactMe = () => {
        <FormContent>
            <Form action='#'>
                <FormH1>Contact Me</FormH1>
-               <FormLabel htmlFor='for'>Email</FormLabel>
+               {/* Save code for when your books are open again */}
+               {/* <FormLabel htmlFor='for'>Email</FormLabel>
                <FormInput type='email' required />
                <FormLabel htmlFor='for'>Password</FormLabel>
                <FormInput type='password' required />
-               <FormButton type='submit'>Continue</FormButton>
-               <Text>Testing</Text>
+               <FormButton type='submit'>Continue</FormButton> */}
+               <Text>BOOKS ARE CLOSED</Text>
            </Form>
        </FormContent>
       </FormWrap>
