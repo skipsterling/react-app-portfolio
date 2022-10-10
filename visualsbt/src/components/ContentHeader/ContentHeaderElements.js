@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom';
 import {MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
 
 export const ContentHeaderContainer = styled.div`
@@ -87,4 +88,30 @@ font-size: 20px;
 export const ArrowRight = styled(MdKeyboardArrowRight)`
 margin-left: 8px;
 font-size: 20px;
+`;
+
+export const Icon = styled(Link)`
+background-color: black;
+white-space: nowrap;
+padding: 2rem;
+border: none;
+border-radius: 3rem;
+margin-left: 32px;
+margin-top: 32px;
+text-decoration: none;
+color: #B2E7E8;
+font-weight: 400;
+font-size: 20px;
+font-family: 'Belleza', sans-serif;
+transition: all 0.3s ease-in-out;
+
+&:hover {
+    color: #ED8975;
+    background-color: white;
+}
+
+@media screen and (max-width: 480px) {
+    margin-left: 16px;
+    margin-top: 8px;
+}
 `;
