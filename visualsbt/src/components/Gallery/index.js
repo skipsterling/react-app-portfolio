@@ -20,7 +20,7 @@ import {
 const PhotoGallery = () => {
   return (
     <div>
-      <Header>IMAGES</Header>
+      <Header>Content Creation</Header>
       <IconContainer><Icon to='/' >Back to Home</Icon></IconContainer>
       <Container>
 

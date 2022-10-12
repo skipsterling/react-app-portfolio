@@ -15,7 +15,7 @@ import {
   const PhotoGallery = () => {
     return (
       <div>
-        <Header>Wedding Images</Header>
+        <Header>Weddings</Header>
         <IconContainer><Icon to='/' >Back to Home</Icon></IconContainer>
         <Container>
           <Column1><Img src='https://drive.google.com/uc?export=view&id=1qW8kuE2TVyqkGk8r-Oaslwy2fHokEGA7' /></Column1>
@@ -40,6 +40,7 @@ import {
          <Column4><Img src='https://drive.google.com/uc?export=view&id=1cu-CyXKIRg3iae1VP0ibbNfjKq5OrXPg' /></Column4>
          
        </Container>
+       
       </div>
     )
   }

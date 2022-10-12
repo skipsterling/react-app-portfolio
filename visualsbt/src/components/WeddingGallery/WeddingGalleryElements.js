@@ -66,7 +66,7 @@ height: 100%;
 export const Header = styled.h1`
 text-align: center;
 padding: 2rem;
-font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
 font-strength: bold;
 font-size: 5rem;
 `;
@@ -80,14 +80,14 @@ border-radius: 3rem;
 margin-left: 32px;
 margin-top: 32px;
 text-decoration: none;
-color: #B2E7E8;
+color: black;
 font-weight: 400;
 font-size: 20px;
 font-family: 'Belleza', sans-serif;
 transition: all 0.3s ease-in-out;
 
 &:hover {
-    color: #ED8975;
+    color: white;
     background-color: black;
 }
 
