@@ -10,6 +10,7 @@ import {
   ContentHeaderH1,
   ContentHeaderP,
   ContentHeaderBtnWrapper,
+  IconContainer,
   Icon
   // ArrowForward,
   // ArrowRight
@@ -24,13 +25,14 @@ const ContentHeaderSection = () => {
 
   return (
     <ContentHeaderContainer>
+      <IconContainer><Icon to='/' >Back to Home</Icon></IconContainer>
+      
       <ContentHeaderBg>
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </ContentHeaderBg>
       <ContentHeaderContent>
         <ContentHeaderH1></ContentHeaderH1>
         <ContentHeaderP></ContentHeaderP>
-        <Icon to='/' >Back to Home</Icon>
         <ContentHeaderBtnWrapper>
           
           {/* <Button to='/' onMouseHover={onHover} onMouseLeave={onHover} 

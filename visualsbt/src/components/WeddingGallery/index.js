@@ -6,6 +6,8 @@ import {
     Column3,
     Column4,
     Img,
+    Icon,
+    IconContainer,
     Header
     
   } from './WeddingGalleryElements';
@@ -14,8 +16,8 @@ import {
     return (
       <div>
         <Header>Wedding Images</Header>
+        <IconContainer><Icon to='/' >Back to Home</Icon></IconContainer>
         <Container>
-    
           <Column1><Img src='https://drive.google.com/uc?export=view&id=1qW8kuE2TVyqkGk8r-Oaslwy2fHokEGA7' /></Column1>
           <Column2><Img src='https://drive.google.com/uc?export=view&id=1h-pkkIw6XPj74eT-c3vW6_qKb8dfviUj'/></Column2>      
           <Column3><Img src='https://drive.google.com/uc?export=view&id=1A6C1SCA0hYZyFXJHG7Jo0-oU1gSnMmA6'/></Column3>     

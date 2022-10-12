@@ -25,11 +25,12 @@ overflow: hidden;
 `;
 
 export const VideoBg = styled.video`
+padding: 5rem;
 width: 100%;
 height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
-background: black;
+background: white;
 `;
 export const ContentHeaderContent = styled.div`
 z-index: 3;
@@ -115,3 +116,7 @@ transition: all 0.3s ease-in-out;
     margin-top: 8px;
 }
 `;
+
+export const IconContainer = styled.div`
+padding: 2rem;
+`

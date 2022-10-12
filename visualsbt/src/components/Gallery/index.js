@@ -11,6 +11,8 @@ import {
   Column3,
   Column4,
   Img,
+  IconContainer,
+  Icon,
   Header
   
 } from './GalleryElements';
@@ -19,9 +21,9 @@ const PhotoGallery = () => {
   return (
     <div>
       <Header>IMAGES</Header>
+      <IconContainer><Icon to='/' >Back to Home</Icon></IconContainer>
       <Container>
-      
-      
+
         <Column1><Img src={Img1} /></Column1>
         <Column2><Img src={Img10}/></Column2>      
         <Column3><Img src={Img9}/></Column3>     
