@@ -1,4 +1,18 @@
 import React from 'react'
+import {
+  AboutContainer,
+  AboutWrapper,
+  AboutRow,
+  ColumnOne,
+  TextWrapper,
+  TopLine,
+  Header,
+  Subtitle,
+  ColumnTwo,
+  ImgWrap,
+  Img
+
+} from './AboutElements';
 
 const aboutComp = () => {
   return (
@@ -14,7 +28,9 @@ const aboutComp = () => {
             </TextWrapper>
             </ColumnOne>
             <ColumnTwo>
-            
+            <ImgWrap>
+            <Img src={src} alt={alt}/>
+            </ImgWrap>
             </ColumnTwo>
           </AboutRow>
         </AboutWrapper>
