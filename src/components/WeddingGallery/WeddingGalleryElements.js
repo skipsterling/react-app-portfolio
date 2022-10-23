@@ -80,15 +80,14 @@ border-radius: 3rem;
 margin-left: 32px;
 margin-top: 32px;
 text-decoration: none;
-color: black;
+color: #304D63;
 font-weight: 400;
 font-size: 20px;
 font-family: 'Belleza', sans-serif;
 transition: all 0.3s ease-in-out;
 
 &:hover {
-    color: white;
-    background-color: black;
+    color: #ED8975;
 }
 
 @media screen and (max-width: 480px) {
