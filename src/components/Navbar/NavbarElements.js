@@ -42,6 +42,10 @@ align-items: center;
 margin-left: 24px;
 font-family: 'Abril Fatface', cursive;
 text-decoration: none;
+
+@media screen and (max-width: 480px) {
+    font-size: 20px;
+}
 `;
 
 export const MobileIcon = styled.div`

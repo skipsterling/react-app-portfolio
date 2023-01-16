@@ -29,9 +29,10 @@ padding: 5rem;
 width: 100%;
 height: 100%;
 -o-object-fit: cover;
-object-fit: cover;
+
 background: white;
 `;
+
 export const ContentHeaderContent = styled.div`
 z-index: 3;
 max-width: 1200px;
