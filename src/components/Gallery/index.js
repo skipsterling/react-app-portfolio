@@ -13,7 +13,8 @@ import {
   Img,
   IconContainer,
   Icon,
-  Header
+  Header,
+  
   
 } from './GalleryElements';
 
