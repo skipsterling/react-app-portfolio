@@ -98,3 +98,7 @@ transition: all 0.3s ease-in-out;
 export const IconContainer = styled.div`
 padding: 2rem;
 `
+
+export const Vid = styled.video`
+width: 100%;
+`
