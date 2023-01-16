@@ -3,6 +3,7 @@ import Img1 from '../../images/1.jpg';
 // import Img2 from '../../images/2.jpg';
 import Img9 from '../../images/9.jpg';
 import Img10 from '../../images/10.jpg';
+import CMTS1 from '../../videos/GiveawayReel.mp4';
 
 import {
   Container,
@@ -14,6 +15,7 @@ import {
   IconContainer,
   Icon,
   Header,
+  Vid
   
   
 } from './GalleryElements';
@@ -47,6 +49,16 @@ const PhotoGallery = () => {
        <Column4><Img src='https://drive.google.com/uc?export=view&id=1NPVzKF-KDdWyU_K8Y1rIbjMmUkimtK_9' /></Column4>
        
      </Container>
+
+    <Container>
+     
+       <Column1><Vid src={CMTS1} autoPlay loop muted></Vid></Column1>
+       <Column2><Img src='https://drive.google.com/uc?export=view&id=1-9yfSWxHXLgMhlt6XVAueK34KxiUvUaC'/></Column2>      
+       <Column3><Img src='https://drive.google.com/uc?export=view&id=1T0HIkgbH_nYb6DqQ0MgZDab0YCEGxB_3'/></Column3>     
+       <Column4><Img src='https://drive.google.com/uc?export=view&id=1NPVzKF-KDdWyU_K8Y1rIbjMmUkimtK_9' /></Column4>
+       
+     </Container>
+
     </div>
   )
 }
