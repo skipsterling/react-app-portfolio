@@ -132,7 +132,7 @@ colour: grey;
 padding: 2rem;
 
 &:hover {
-    color: #F2D096;
+    color: #ED8975;
     cursor: pointer;
 }
 `;
@@ -142,7 +142,7 @@ colour: grey;
 padding: 2rem;
 
 &:hover {
-    color: #F2D096;
+    color: #ED8975;
     cursor: pointer;
 }
 `;

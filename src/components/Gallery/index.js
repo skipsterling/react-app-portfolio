@@ -7,6 +7,7 @@ import CMTS1 from '../../videos/GiveawayReel.mp4';
 import CMTS2 from '../../videos/WillTheyFreeze.mp4';
 import CMTS3 from '../../videos/melt.mp4';
 import CMTS4 from '../../videos/IT.mp4';
+import { Link } from 'react-scroll'
 
 import {
   Container,
@@ -33,10 +34,10 @@ const PhotoGallery = () => {
       <Header>Content Creation</Header>
       <IconContainer><Icon to='/' >Back to Home</Icon></IconContainer>
 <SelectionContainer>
-    <Pics>Images</Pics>
-    <Vids>Videos</Vids>
+    <Link to='pics' ><Pics>Images</Pics></Link>
+    <Link to='vids' ><Vids>Videos</Vids></Link>
     </SelectionContainer>
-      <Container>
+      <Container id='pics'>
 
         <Column1><Img src={Img1} /></Column1>
         <Column2><Img src={Img10}/></Column2>      
@@ -61,7 +62,7 @@ const PhotoGallery = () => {
        
      </Container>
 <CMTH>CosMediTour Series</CMTH>
-    <Container>
+    <Container id='vids'>
      
        <Column1><Vid src={CMTS1} autoPlay loop muted></Vid></Column1>
        <Column2><Vid src={CMTS2} autoPlay loop muted></Vid></Column2>      
