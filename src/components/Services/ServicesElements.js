@@ -11,12 +11,14 @@ align-items: center;
 background: #B2E7E8;
 
 @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 1200px;
 
     @media screen and (max-width: 480px) {
-        height: 1100px;
+        height: 1200px;
     }
 }
+
+
 `;
 
 export const ServicesWrapper = styled.div`

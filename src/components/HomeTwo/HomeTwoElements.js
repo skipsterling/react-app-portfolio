@@ -100,6 +100,15 @@ export const Img = styled.img`
 width: 100%;
 margin: 0 0 0 10px 0;
 padding-right: 0;
+
+@media screen and (max-width: 748px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+
+}
+
 `;
 
 // This will link us back to the home screen

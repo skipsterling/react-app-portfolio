@@ -7,8 +7,18 @@ padding: 1rem;
 display: grid;
 grid-template-columns: 21.5% 21.5% 21.5% 21.5%;
 grid-gap: 1rem;
-grid-auto-flow: row;
+grid-auto-flow: auto;
+
+@media screen and (max-width: 748px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+
+}
+
 `;
+
 
 export const Column1 = styled.div`
 display: grid;
@@ -108,4 +118,4 @@ display: flex;
 justify-content: center;
 align-items: center;
 colour: grey;
-`
+`;

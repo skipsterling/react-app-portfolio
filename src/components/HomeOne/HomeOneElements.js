@@ -94,6 +94,14 @@ justify-content: flex-start;
 export const ImgWrap = styled.div`
 max-width: 555px;
 height: 100%;
+
+@media screen and (max-width: 748px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+
+}
 `;
 
 export const Img = styled.img`
