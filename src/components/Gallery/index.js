@@ -6,6 +6,7 @@ import Img10 from '../../images/10.jpg';
 import CMTS1 from '../../videos/GiveawayReel.mp4';
 import CMTS2 from '../../videos/WillTheyFreeze.mp4';
 import CMTS3 from '../../videos/melt.mp4';
+import CMTS4 from '../../videos/IT.mp4';
 
 import {
   Container,
@@ -18,7 +19,10 @@ import {
   Icon,
   Header,
   Vid,
-  CMTH
+  CMTH,
+  Pics,
+  Vids,
+  SelectionContainer
   
   
 } from './GalleryElements';
@@ -28,6 +32,10 @@ const PhotoGallery = () => {
     <div>
       <Header>Content Creation</Header>
       <IconContainer><Icon to='/' >Back to Home</Icon></IconContainer>
+<SelectionContainer>
+    <Pics>Images</Pics>
+    <Vids>Videos</Vids>
+    </SelectionContainer>
       <Container>
 
         <Column1><Img src={Img1} /></Column1>
@@ -58,7 +66,7 @@ const PhotoGallery = () => {
        <Column1><Vid src={CMTS1} autoPlay loop muted></Vid></Column1>
        <Column2><Vid src={CMTS2} autoPlay loop muted></Vid></Column2>      
        <Column3><Vid src={CMTS3} autoPlay loop muted></Vid></Column3>     
-       <Column4></Column4>
+       <Column4><Vid src={CMTS4} autoPlay loop muted></Vid></Column4>
        
      </Container>
 

@@ -119,3 +119,30 @@ justify-content: center;
 align-items: center;
 colour: grey;
 `;
+
+export const SelectionContainer = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+colour: grey;
+`;
+
+export const Pics = styled.h3`
+colour: grey;
+padding: 2rem;
+
+&:hover {
+    color: #F2D096;
+    cursor: pointer;
+}
+`;
+
+export const Vids = styled.h3`
+colour: grey;
+padding: 2rem;
+
+&:hover {
+    color: #F2D096;
+    cursor: pointer;
+}
+`;
