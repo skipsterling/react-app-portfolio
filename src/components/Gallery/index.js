@@ -5,6 +5,7 @@ import Img9 from '../../images/9.jpg';
 import Img10 from '../../images/10.jpg';
 import CMTS1 from '../../videos/GiveawayReel.mp4';
 import CMTS2 from '../../videos/WillTheyFreeze.mp4';
+import CMTS3 from '../../videos/melt.mp4';
 
 import {
   Container,
@@ -56,7 +57,7 @@ const PhotoGallery = () => {
      
        <Column1><Vid src={CMTS1} autoPlay loop muted></Vid></Column1>
        <Column2><Vid src={CMTS2} autoPlay loop muted></Vid></Column2>      
-       <Column3></Column3>     
+       <Column3><Vid src={CMTS3} autoPlay loop muted></Vid></Column3>     
        <Column4></Column4>
        
      </Container>
