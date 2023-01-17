@@ -16,7 +16,8 @@ import {
   IconContainer,
   Icon,
   Header,
-  Vid
+  Vid,
+  CMTH
   
   
 } from './GalleryElements';
@@ -50,7 +51,7 @@ const PhotoGallery = () => {
        <Column4><Img src='https://drive.google.com/uc?export=view&id=1NPVzKF-KDdWyU_K8Y1rIbjMmUkimtK_9' /></Column4>
        
      </Container>
-<h2>CosMediTour Series</h2>
+<CMTH>CosMediTour Series</CMTH>
     <Container>
      
        <Column1><Vid src={CMTS1} autoPlay loop muted></Vid></Column1>

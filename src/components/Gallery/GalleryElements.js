@@ -101,4 +101,11 @@ padding: 2rem;
 
 export const Vid = styled.video`
 width: 100%;
+`;
+
+export const CMTH = styled.h2`
+display: flex;
+justify-content: center;
+align-items: center;
+colour: grey;
 `
