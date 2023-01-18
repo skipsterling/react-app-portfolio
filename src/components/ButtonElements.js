@@ -17,9 +17,11 @@ justify-content: center;
 align-items: center;
 font-family: 'Belleza', sans-serif;
 transition: all 0.2s ease-in-out;
+text-decoration: none;
 
 &:hover {
     transition: all 0.2s ease-in-out;
     background: ${({primary}) => (primary ? '#ED8975' : '#F2D096')};
+    color: white;
 }
 `

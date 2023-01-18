@@ -106,3 +106,30 @@ transition: all 0.3s ease-in-out;
 export const IconContainer = styled.div`
 padding: 2rem;
 `
+
+export const SelectionContainer = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+colour: grey;
+`;
+
+export const Pics = styled.h3`
+colour: grey;
+padding: 2rem;
+
+&:hover {
+    color: #ED8975;
+    cursor: pointer;
+}
+`;
+
+export const Vids = styled.h3`
+colour: grey;
+padding: 2rem;
+
+&:hover {
+    color: #ED8975;
+    cursor: pointer;
+}
+`;

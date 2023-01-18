@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import Img1 from '../../images/1.jpg';
 // import Img2 from '../../images/2.jpg';
 import Img9 from '../../images/9.jpg';
@@ -7,7 +8,10 @@ import CMTS1 from '../../videos/GiveawayReel.mp4';
 import CMTS2 from '../../videos/WillTheyFreeze.mp4';
 import CMTS3 from '../../videos/melt.mp4';
 import CMTS4 from '../../videos/IT.mp4';
-import { Link } from 'react-scroll'
+import Img13 from '../../images/13.JPG';
+import Img14 from '../../images/14.JPG';
+import Img15 from '../../images/15.JPG';
+import Img16 from '../../images/16.JPG';
 
 import {
   Container,
@@ -53,6 +57,17 @@ const PhotoGallery = () => {
        <Column4><Img src='https://drive.google.com/uc?export=view&id=1FjgO_l9idFp0ubMY8_RwPbfTciq7_XGl' /></Column4>
        
      </Container>
+
+     <Container>
+     
+    <Column1><Img src={Img13} /></Column1>
+     <Column2><Img src={Img14} /></Column2>      
+     <Column3><Img  src={Img15} /></Column3>     
+     <Column4><Img src={Img16} /></Column4>
+     
+   </Container>
+
+
      <Container>
      
        <Column1><Img src='https://drive.google.com/uc?export=view&id=1fuCA7c-kt72pdmJbqNimvtXokINyUHjT' /></Column1>

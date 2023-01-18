@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-scroll';
+
 import {
     Container,
     Column1,
@@ -8,7 +10,10 @@ import {
     Img,
     Icon,
     IconContainer,
-    Header
+    Header,
+    SelectionContainer,
+    Pics,
+    Vids
     
   } from './WeddingGalleryElements';
   
@@ -17,7 +22,13 @@ import {
       <div>
         <Header>Weddings</Header>
         <IconContainer><Icon to='/' >Back to Home</Icon></IconContainer>
-        <Container>
+
+        <SelectionContainer>
+    <Link to='pics' ><Pics>Images</Pics></Link>
+    <Link to='vids' ><Vids>Videos</Vids></Link>
+    </SelectionContainer>
+
+        <Container id='pics'>
           <Column1><Img src='https://drive.google.com/uc?export=view&id=1qW8kuE2TVyqkGk8r-Oaslwy2fHokEGA7' /></Column1>
           <Column2><Img src='https://drive.google.com/uc?export=view&id=1h-pkkIw6XPj74eT-c3vW6_qKb8dfviUj'/></Column2>      
           <Column3><Img src='https://drive.google.com/uc?export=view&id=1A6C1SCA0hYZyFXJHG7Jo0-oU1gSnMmA6'/></Column3>     
@@ -32,13 +43,17 @@ import {
          <Column4><Img src='https://drive.google.com/uc?export=view&id=1Lr4XBZzIk1vUeEb5rzCdNG5Zi7frJOWL' /></Column4>
          
        </Container>
-       <Container>
+       <Container >
        
          <Column1><Img src='https://drive.google.com/uc?export=view&id=1bYgewgbvJFgkXYj8UIN4XhYYpUDax6cT' /></Column1>
          <Column2><Img src='https://drive.google.com/uc?export=view&id=1Y8YvPexcJibNln6HTGnnS788HfstgBEq'/></Column2>      
          <Column3><Img src='https://drive.google.com/uc?export=view&id=1LS4eJPr2fLSOuwcnzGse5SNV4MM_SUjN'/></Column3>     
          <Column4><Img src='https://drive.google.com/uc?export=view&id=1cu-CyXKIRg3iae1VP0ibbNfjKq5OrXPg' /></Column4>
          
+       </Container>
+
+       <Container id='vids'>
+
        </Container>
        
       </div>
