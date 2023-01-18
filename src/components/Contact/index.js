@@ -25,8 +25,8 @@ const ContactMe = () => {
                {/* Save code for when your books are open again */}
                {/* <FormLabel htmlFor='for'>Email</FormLabel>
                <FormInput type='email' required />
-               <FormLabel htmlFor='for'>Password</FormLabel>
-               <FormInput type='password' required />
+               <FormLabel htmlFor='for'>Phone Number</FormLabel>
+               <FormInput type='number' required />
                <FormButton type='submit'>Continue</FormButton> */}
                <Text>BOOKS ARE CLOSED UNITL FURTHER NOTICE</Text>
            </Form>

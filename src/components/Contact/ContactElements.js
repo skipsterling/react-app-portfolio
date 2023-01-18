@@ -84,7 +84,7 @@ text-align: center;
 export const FormLabel = styled.label`
 margin-bottom: 8px;
 font-size: 14px;
-color: #fff;
+color: black;
 `;
 
 export const FormInput = styled.input`
@@ -92,9 +92,10 @@ padding: 16px 16px;
 margin-bottom: 32px;
 border: none;
 border-radius; 4px;
-color: #fff;
+color: black;
 font-size: 20px;
 cursor: pointer;
+font-family: 'Caudex', serif;
 `;
 
 export const FormButton = styled.button`
